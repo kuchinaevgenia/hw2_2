@@ -49,7 +49,6 @@ h1 {
 }
 
 .jane-john-img {
-    /* width: 90%; */
     max-width: 100%;
 }
 
@@ -61,12 +60,17 @@ h1 {
 }
 
 .jane-john-btn {
+    cursor: pointer;
     background-color: #000;
     color:#fff;
     font-size: 18px;
-    padding: 12px 24px;
+    padding: 18px 24px;
     border: none;
     border-radius: 5px;
+}
+
+.jane-john-btn :hover {
+    background-color: #ccc;
 }
 
 .invited-section {
@@ -126,3 +130,24 @@ h1 {
     font-size: 15px;
     margin: 15px 0;
 }
+
+.feedback-header {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.feedback-text {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.feedback-btn {
+    background-color: #f44336;
+    color:#fff;
+    font-size: 24px;
+    padding: 18px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
