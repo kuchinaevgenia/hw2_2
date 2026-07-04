@@ -167,3 +167,11 @@ footer {
   color: #fff;
   font-size: 15px;
 }
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: green;
+}
