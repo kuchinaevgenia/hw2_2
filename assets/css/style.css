@@ -10,6 +10,12 @@ body {
   text-align: center;
 }
 
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 a {
   text-decoration: none;
 }
@@ -40,10 +46,6 @@ h1 {
   font-size: 30px;
   font-weight: bolder;
   margin: 20px;
-}
-
-.jane-john-section {
-  margin: 0 5%;
 }
 
 .jane-john-header {
@@ -98,7 +100,6 @@ h1 {
 }
 
 .details-section {
-  margin: 0 5%;
   font-size: 0;
 }
 
